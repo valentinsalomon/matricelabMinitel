@@ -1,18 +1,24 @@
 # matricelabMinitel
-Problématique: Comment recycler un minitel en le hackant et utilisant un raspberry pi pour le faire communiquer avec un autre minitels?
+## Problématique: Comment recycler un minitel en le hackant et utilisant un raspberry pi pour le faire communiquer avec un autre minitels?
 Pour faire se projet nous avons dut utilisé:
--Un raspberry pi qui servira de micro ordinateur
--Un cable DIN
--Un Pl2303 qui lui, sert pour relier le DIN au raspberry
--Un minitel B1 (les B1 ont la particularité d'avoir une touche fnct "fonction" et une prise DIN femelle
+- Un raspberry pi qui servira de micro ordinateur
+- Un cable DIN
+- Un Pl2303 qui lui, sert pour relier le DIN au raspberry
+- Un minitel B1 (les B1 ont la particularité d'avoir une touche fnct "fonction" et une prise DIN femelle
+
 C'est donc pendant un mois que j'ai eu pour mission de récupérer un minitel pour le modifier afin qu'il puisse etre utiliser comme terminale Linux. Pour commencer, j'ai passé mon temps à chercher dans sur le net des cas comparables pour trouver des tutoriels et évaluer des méthodes utilisables pour le faire dialoguer le minitel avec une carte Arduino ou un Raspberry. Etant donné que si l'on veut utiliser un mini ordinateur via SSH, avoir des applications déjà existantes et faire des “apt-get”, et pouvoir brancher un clavier, une souris et un écran, le Raspberry Pi est le meilleur choix.
 Mais si l'on veut découvrir comment fonctionne une technologie, et pouvoir ajouter de nouvelles fonctions en rajoutant des modules alors le Arduino est mieux.
+
 J'ai donc choisi le raspberry. Pour commencer à utiliser le raspberry il faut d'abbord le programmer en installant Raspbian, en faite Raspbian est un système d'exploitation libre et gratuit fondé sur GNU/Linux/Debian et optimisé pour fonctionner sur un Raspberry Pi. Ensuite après avoir installer Raspbian, nous l'avons branché à la télévision du cambuzz et nous l'avons paramétré (langues,mot de passe).
-Nous avons fait un bot twitter sur un raspberry pi, se qui va nous donner des informations sur la température du CPU, combien de temps est-il allumé. Pour cela il faut installer les paquets suivants: 
+Nous avons fait un bot twitter sur un raspberry pi, se qui va nous donner des informations sur la température du CPU, combien de temps est-il allumé. Pour cela il faut installer les paquets suivants:
+
+'''
 sudo apt-get install python-setuptools python-dev libffi-dev libssl-dev python-pip
 sudo pip install twython
 sudo pip install requests[security]
-Puis il faut se cpnnecter sur l'Application Management de Twitter, avec le compte bot
+'''
+
+Puis il faut se connecter sur l'Application Management de Twitter, avec le compte bot
 pour y générer un token et ensuite le remplacer dans les différents scripts python (4 en tout).
 
 Sources:
