@@ -22,35 +22,35 @@ sudo pip install requests[security]
 Puis il faut se connecter sur l'Application Management de Twitter, avec le compte bot
 pour y générer un token et ensuite le remplacer dans les différents scripts python (4 en tout).
 
-Sources:
-http://wiki.labomedia.org/index.php/Renaissance_d%27un_Minitel_avec_une_Raspberry_Pi
-http://wiki.labomedia.org/index.php/Conversation_avec_un_minitel
-http://blog.uggy.org/?post/2015/02/22/Minitel-et-Raspberry
-http://wiki.labomedia.org/images/9/91/Minitel_1_bistandard_alcatel.pdf
-http://pila.fr/wordpress/?p=425
-http://xseignard.github.io/2013/05/20/plug-your-minitel-on-your-raspberry-pi/
-http://tonyisageek.blogspot.fr/p/telic-alcatel-minitel-running-as-usb.html
-http://www.virtualabs.fr/Super-Minitel-Entertainment-System
-http://hxc2001.free.fr/minitel/Presentation_Etude_Minitel_2_FR_DE.pdf
-http://hxc2001.free.fr/minitel/
+### Sources:
+[(http://wiki.labomedia.org/index.php/Renaissance_d%27un_Minitel_avec_une_Raspberry_Pi)]
+[(http://wiki.labomedia.org/index.php/Conversation_avec_un_minitel)]
+[(http://blog.uggy.org/?post/2015/02/22/Minitel-et-Raspberry)]
+[(http://wiki.labomedia.org/images/9/91/Minitel_1_bistandard_alcatel.pdf)]
+[(http://pila.fr/wordpress/?p=425)]
+[(http://xseignard.github.io/2013/05/20/plug-your-minitel-on-your-raspberry-pi/)]
+[(http://tonyisageek.blogspot.fr/p/telic-alcatel-minitel-running-as-usb.html)]
+[(http://www.virtualabs.fr/Super-Minitel-Entertainment-System)]
+[(http://hxc2001.free.fr/minitel/Presentation_Etude_Minitel_2_FR_DE.pdf)]
+[(http://hxc2001.free.fr/minitel/)]
 
-RaspPi
-http://fr.rs-online.com/web/generalDisplay.html?id=raspberrypi
-http://www.framboise314.fr/raspberry-pi-3-quoi-de-neuf-docteur/
-http://branchez-vous.com/2016/02/29/le-raspberry-pi-3-passage-64-bits-pour-le-pc-miniature-35-us/
+### RaspPi
+[(http://fr.rs-online.com/web/generalDisplay.html?id=raspberrypi)]
+[(http://www.framboise314.fr/raspberry-pi-3-quoi-de-neuf-docteur/)]
+[(http://branchez-vous.com/2016/02/29/le-raspberry-pi-3-passage-64-bits-pour-le-pc-miniature-35-us/)]
 
-Twitter
-https://angristan.fr/faire-un-bot-twitter-sur-son-raspberry-pi/
-https://github.com/Angristan/AngristanRPiBot
+### Twitter
+[(https://angristan.fr/faire-un-bot-twitter-sur-son-raspberry-pi/)]
+[(https://github.com/Angristan/AngristanRPiBot)]
 
-Commandes Linux 
-http://lea-linux.org/documentations/Shell
+### Commandes Linux 
+[(http://lea-linux.org/documentations/Shell)]
 
-Question reponse Twitter
-http://naelshiab.com/quand-twitter-rencontre-python/
-http://socialmedia-class.org/twittertutorial.html
-http://naelshiab.com/tutoriel-vos-premiers-pas-en-python/
-https://github.com/twitterdev/sample-python-autoreply
-https://github.com/bear/python-twitter
-https://blog.twitter.com/2014/getting-started-with-automation-on-twitter
-http://www.dototot.com/reply-tweets-python-tweepy-twitter-bot/
+### Question reponse Twitter
+[(http://naelshiab.com/quand-twitter-rencontre-python/)]
+[(http://socialmedia-class.org/twittertutorial.html)]
+[(http://naelshiab.com/tutoriel-vos-premiers-pas-en-python/)]
+[(https://github.com/twitterdev/sample-python-autoreply)]
+[(https://github.com/bear/python-twitter)]
+[(https://blog.twitter.com/2014/getting-started-with-automation-on-twitter)]
+[(http://www.dototot.com/reply-tweets-python-tweepy-twitter-bot/)]
