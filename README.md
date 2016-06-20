@@ -12,11 +12,12 @@ Mais si l'on veut découvrir comment fonctionne une technologie, et pouvoir ajou
 J'ai donc choisi le raspberry. Pour commencer à utiliser le raspberry il faut d'abbord le programmer en installant Raspbian, en faite Raspbian est un système d'exploitation libre et gratuit fondé sur GNU/Linux/Debian et optimisé pour fonctionner sur un Raspberry Pi. Ensuite après avoir installer Raspbian, nous l'avons branché à la télévision du cambuzz et nous l'avons paramétré (langues,mot de passe).
 Nous avons fait un bot twitter sur un raspberry pi, se qui va nous donner des informations sur la température du CPU, combien de temps est-il allumé. Pour cela il faut installer les paquets suivants:
 
-'''
+``` shell
 sudo apt-get install python-setuptools python-dev libffi-dev libssl-dev python-pip
 sudo pip install twython
 sudo pip install requests[security]
-'''
+```
+
 
 Puis il faut se connecter sur l'Application Management de Twitter, avec le compte bot
 pour y générer un token et ensuite le remplacer dans les différents scripts python (4 en tout).
