@@ -18,9 +18,9 @@ sudo pip install twython
 sudo pip install requests[security]
 ```
 
-
 Il faudra alors se connecter sur l'Application Management de Twitter, avec le compte bot
 pour y générer un token et ensuite le remplacer dans les différents scripts python (4 en tout).
+
 
 ### Sources:
 [(http://wiki.labomedia.org/index.php/Renaissance_d%27un_Minitel_avec_une_Raspberry_Pi)]
